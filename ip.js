@@ -9,5 +9,5 @@ app.get('/', function(req, res){
 });
 
 app.listen(process.env.IP_SERVER_PORT, function () {
-  console.log('Server listening');
+  console.log('Server listening on port', process.env.IP_SERVER_PORT);
 });
